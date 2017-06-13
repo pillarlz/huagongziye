@@ -1,0 +1,24 @@
+.main-other .new{
+	float: left;
+	width: 73%;
+	padding: 0 1%;
+	
+}
+
+
+
+@media only screen and (max-width: 1200px)
+{
+	.main-other .new{
+		float: none;
+		width: 96%;
+		padding: 0 2%;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.main-other .new{
+		width: 98%;
+		padding: 0 1%;
+	}
+}
